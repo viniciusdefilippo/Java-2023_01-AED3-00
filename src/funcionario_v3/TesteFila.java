@@ -38,6 +38,9 @@ public class TesteFila {
         }
 
         // Tratamento de exceção - Tentar remoção em fila vazia
+        // 7. Tente remover um elemento de uma fila vazia
+        System.out.println("7. Tente remover um elemento de uma fila vazia");
+
         try {
             f.dequeue();
         } catch (Exception e) {

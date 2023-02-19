@@ -22,7 +22,7 @@ public class Fila {
     public Funcionario dequeue() {
 
         if (isEmpty()) {
-            throw new IllegalArgumentException("Fila vazia.");
+            throw new RuntimeException("Fila vazia.");
         }
 
         Funcionario f = this.funcionarios[0];

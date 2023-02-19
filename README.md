@@ -1,6 +1,6 @@
 # Revisão Algoritmos e Estruturas de dados II
 
-## Exercício 1: pkg funcionarios - Lista
+## Exercício 1 - Lista: package funcionarios_v1
 Elaborar um código em Java para que seja possível efetuar o controle de funcionários de uma empresa.
 
 ## Requisitos:
@@ -51,7 +51,7 @@ Desenvolva um código Java para testar as classes Funcionário e Lista que reali
 - Método de Ordenação - Bubble Sort
 - Método de Pesquisa Simples
 
-## Exercício 2: pkg funcionarios - Pilha
+## Exercício 2 - Pilha: package funcionarios_v2
 
 **PROCEDIMENTO:** Aproveitando a classe Funcionário, utilizada no exercício anterior, crie uma nova classe **Pilha.java** e implemente o Tipo Abstrato de Dados **(TAD) PILHA**.
 
@@ -63,7 +63,7 @@ public boolean isEmpty( ) {}
 // Verifica se a Pilha está vazia
 public void push(Funcionario f) {}
 // Insere um funcionário no topo da pilha
-Funcionario pop( ) {}
+public Funcionario pop( ) {}
 // Retira o elemento que está no topo da pilha
 public boolean contain(String nome) {}
 // verifica se existe um funcionário pelo nome
@@ -85,7 +85,7 @@ Desenvolva um código Java para testar as classes Funcionário e Pilha que reali
 6. Preencha novamente a pilha e liste os funcionários em ordem invertida.
 7. Preencha novamente a pilha e remova um dos funcionários sem criar novos métodos na classe Pilha
 
-## Exercício 3: pkg funcionarios - Fila
+## Exercício 3 - Fila: package funcionarios_v3
 
 **PROCEDIMENTO:** Aproveitando a classe Funcionário, utilizada no exercício anterior, crie uma nova classe **Fila.java** e implemente o Tipo Abstrato de Dados **(TAD) FILA**.
 
@@ -97,7 +97,7 @@ public boolean isEmpty( ) {}
 // Verifica se a Fila está vazia
 public void enqueue(Funcionario f) {}
 // Insere um funcionário no topo da pilha
-Funcionario dequeue( ) {}
+public Funcionario dequeue( ) {}
 // Retira o elemento que está no topo da pilha
 public boolean contain(String nome) {}
 // verifica se existe um funcionário pelo nome
@@ -116,8 +116,8 @@ Desenvolva um código Java para testar as classes Funcionário e Fila que realiz
 3. Pesquise por nome um funcionário existente
 4. Pesquise por nome um funcionário que não existe
 5. Retire todos os funcionários da fila
-6. Preencha novamente a pilha e remova um dos funcionários sem criar novos métodos na classe Fila
-
+6. Preencha novamente a fila e remova um dos funcionários sem criar novos métodos na classe Fila
+7. Tente remover um elemento de uma fila vazia
 
 
 
