@@ -1,4 +1,4 @@
-# Revisão Algorítmos e Estruturas de dados II
+# Revisão Algoritmos e Estruturas de dados II
 
 ## Exercício 1: pkg funcionarios - Lista
 Elaborar um código em Java para que seja possível efetuar o controle de funcionários de uma empresa.
