@@ -59,18 +59,18 @@ Desenvolva um código Java para testar as classes Funcionário e Lista que reali
 
 **OPERAÇÕES MÍNIMAS A SEREM IMPLEMENTADAS:**
 ```JAVA
-public boolean isEmpty( ) {}
 // Verifica se a Pilha está vazia
-public void push(Funcionario f) {}
+public boolean isEmpty( ) {}
 // Insere um funcionário no topo da pilha
-public Funcionario pop( ) {}
+public void push(Funcionario f) {}
 // Retira o elemento que está no topo da pilha
-public boolean contain(String nome) {}
+public Funcionario pop( ) {}
 // verifica se existe um funcionário pelo nome
-public void print( ) {}
+public boolean contain(String nome) {}
 // Mostra (imprime) o conteúdo da pilha
-public int size( ) {}
+public void print( ) {}
 // Retorna a quantidade de itens úteis da pilha
+public int size( ) {}
 ```
 
 ### Classe de Teste (Main)
@@ -84,6 +84,7 @@ Desenvolva um código Java para testar as classes Funcionário e Pilha que reali
 5. Retire todos os funcionários da pilha
 6. Preencha novamente a pilha e liste os funcionários em ordem invertida.
 7. Preencha novamente a pilha e remova um dos funcionários sem criar novos métodos na classe Pilha
+8. Tente remover um elemento de uma pilha vazia
 
 ## Exercício 3 - Fila: package funcionarios_v3
 
@@ -93,18 +94,18 @@ Desenvolva um código Java para testar as classes Funcionário e Pilha que reali
 
 **OPERAÇÕES MÍNIMAS A SEREM IMPLEMENTADAS:**
 ```JAVA
-public boolean isEmpty( ) {}
 // Verifica se a Fila está vazia
+public boolean isEmpty( ) {}
+// Insere um funcionário no fim da fila
 public void enqueue(Funcionario f) {}
-// Insere um funcionário no topo da pilha
+// Retira o elemento que está no início da fila
 public Funcionario dequeue( ) {}
-// Retira o elemento que está no topo da pilha
-public boolean contain(String nome) {}
 // verifica se existe um funcionário pelo nome
-public void print( ) {}
+public boolean contain(String nome) {}
 // Mostra (imprime) o conteúdo da fila
-public int size( ) {}
+public void print( ) {}
 // Retorna a quantidade de itens úteis da fila
+public int size( ) {}
 ```
 
 ### Classe de Teste (Main)

@@ -47,6 +47,8 @@ public class TesteFila {
             System.out.print("\nErro ao tentar acessar a Fila: " + e.getMessage() + "\n");
         }
 
+        System.out.println("\nFim!");
+
     }
 
     public static Fila preencheFila() {

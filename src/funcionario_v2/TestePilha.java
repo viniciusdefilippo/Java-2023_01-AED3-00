@@ -46,6 +46,12 @@ public class TestePilha {
         while (!p3.isEmpty()) p.push(p3.pop());
         p.print();
 
+        // 8. Tente remover um funcionário em uma pilha vazia
+        System.out.println("\n8. Tente remover um funcionário em uma pilha vazia");
+        p3.pop();
+
+        System.out.println("\nFim!");
+
     }
 
     public static Pilha preenchePilha() {
